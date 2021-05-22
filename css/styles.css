@@ -1,0 +1,35 @@
+body {
+  background-color: #dbe2ef;
+}
+
+.top_block {
+  background-color: #112d4e;
+}
+
+.top_block h1 {
+  color: #dbe2ef;
+}
+
+.top_block p {
+  color: #dbe2ef;
+}
+.profile {
+  border-radius: 200px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: #112d4e;
+  width: 200px;
+}
+
+hr {
+  display: block;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #112d4e;
+  border-width: 5px;
+  width: 50%;
+}
+
+.form hr {
+  width: 10%;
+}
