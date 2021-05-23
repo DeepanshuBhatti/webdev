@@ -1,24 +1,46 @@
 body {
   background-color: #dbe2ef;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
 }
 
-.top_block {
-  background-color: #112d4e;
+h1 {
+  font-size: 500%;
+  margin-top: 50px;
+  font-family: "Sacramento", cursive;
+  color: #3f72af;
 }
 
-.top_block h1 {
-  color: #dbe2ef;
+h2 {
+  font-size: 250%;
+  color: #3f72af;
+  font-weight: normal;
 }
 
-.top_block p {
-  color: #dbe2ef;
+.top-container {
+  position: relative;
+  line-height: 150%;
 }
+
 .profile {
   border-radius: 200px;
   border-width: 2px;
   border-style: inset;
   border-color: #112d4e;
   width: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 200px;
+  right: 600px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 200px;
+  left: 400px;
 }
 
 hr {
@@ -32,4 +54,28 @@ hr {
 
 .form hr {
   width: 10%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skills {
+  line-height: 2;
+}
+
+.code-img {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.game-img {
+  width: 200px;
+  float: right;
+  border-radius: 50px;
+  margin-left: 30px;
 }
