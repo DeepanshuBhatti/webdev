@@ -1,81 +1,123 @@
-body {
+#title {
   background-color: #dbe2ef;
-  margin: 0px;
-  text-align: center;
-  font-family: "Merriweather", serif;
 }
 
 h1 {
-  font-size: 500%;
-  margin-top: 50px;
-  font-family: "Sacramento", cursive;
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.link-button {
+  margin: 5% 3% 5% 0;
+}
+
+#skills {
+  padding: 2% 15%;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+p {
   color: #3f72af;
-}
-
-h2 {
-  font-size: 250%;
-  color: #3f72af;
-  font-weight: normal;
-}
-
-.top-container {
-  position: relative;
-  line-height: 150%;
-}
-
-.profile {
-  border-radius: 200px;
-  border-width: 2px;
-  border-style: inset;
-  border-color: #112d4e;
-  width: 200px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  width: 200px;
-  right: 600px;
-}
-
-.top-cloud {
-  position: absolute;
-  width: 200px;
-  left: 400px;
-}
-
-hr {
-  display: block;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #112d4e;
-  border-width: 5px;
-  width: 50%;
-}
-
-.form hr {
-  width: 10%;
 }
 
 .skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
+  text-align: center;
+  padding: 5%;
+}
+
+.left-cloud {
+  position: absolute;
+  width: 160px;
+  right: 40%;
+}
+
+.right-cloud {
+  position: absolute;
+  width: 180px;
+  right: 20%;
+}
+
+.icon {
+  color: #112d4e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #3f72af;
+}
+
+#skills h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 300%;
+}
+
+#testimonials {
+  text-align: center;
+  background-color: #dbe2ef;
+}
+
+.testimonials-image {
+  border-radius: 50%;
+}
+
+.carousel-item {
+  padding: 2% 15%;
+  background-color: #dbe2ef;
+  text-align: center;
+  height: 480px;
+}
+
+.carousel-item h2 {
+  line-height: 3;
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.carousel-item p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+
+#footer {
+  padding: 1% 15%;
+}
+
+#footer a {
+  padding: 1% 2%;
+}
+
+#footer p {
   line-height: 2;
-}
-
-.skills {
-  line-height: 2;
-}
-
-.code-img {
-  width: 200px;
-  float: left;
-  margin-right: 30px;
-}
-
-.game-img {
-  width: 200px;
-  float: right;
-  border-radius: 50px;
-  margin-left: 30px;
+  text-align: center;
+  font-weight: bolder;
 }
