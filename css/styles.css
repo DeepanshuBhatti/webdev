@@ -1,16 +1,31 @@
-#title {
-  background-color: #dbe2ef;
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #112d4e;
 }
 
 h1 {
-  font-family: "Montserrat";
   font-size: 3rem;
   line-height: 1.5;
-  font-weight: bold;
 }
 
-body {
-  font-family: "Montserrat";
+p {
+  color: #3f72af;
+}
+
+#title {
+  background-color: #dbe2ef;
+  text-align: left;
 }
 
 /* Navigation Bar */
@@ -41,16 +56,7 @@ body {
   padding: 2% 15%;
 }
 
-h3 {
-  font-weight: bold;
-}
-
-p {
-  color: #3f72af;
-}
-
 .skill-row {
-  text-align: center;
   padding: 5%;
 }
 
@@ -76,13 +82,11 @@ p {
 }
 
 #skills h2 {
-  text-align: center;
   font-weight: bolder;
   font-size: 300%;
 }
 
 #testimonials {
-  text-align: center;
   background-color: #dbe2ef;
 }
 
@@ -93,8 +97,7 @@ p {
 .carousel-item {
   padding: 2% 15%;
   background-color: #dbe2ef;
-  text-align: center;
-  height: 480px;
+  height: fit-content;
 }
 
 .carousel-item h2 {
@@ -110,6 +113,7 @@ p {
 
 #footer {
   padding: 1% 15%;
+  background-color: #dbe2ef;
 }
 
 #footer a {
@@ -118,6 +122,28 @@ p {
 
 #footer p {
   line-height: 2;
-  text-align: center;
   font-weight: bolder;
+}
+
+#cards {
+  padding: 2% 15%;
+}
+
+#contact-form {
+  padding: 2 15% 5% 15%;
+  background-color: #112d4e;
+  color: #fff;
+  text-align: left;
+}
+
+#contact-form h1 {
+  font-weight: bold;
+  text-align: center;
+  padding: 5% 0;
+  color: #fff;
+}
+
+#contact-form .submit-btn {
+  padding: 5% 0;
+  text-align: center;
 }
