@@ -125,8 +125,12 @@ p {
   font-weight: bolder;
 }
 
-#cards {
+#tools {
   padding: 2% 15%;
+}
+
+.row {
+  padding: 1% 0;
 }
 
 #contact-form {
@@ -146,4 +150,16 @@ p {
 #contact-form .submit-btn {
   padding: 5% 0;
   text-align: center;
+}
+
+.try-it {
+  background-color: #112d4e;
+}
+
+.try-it:hover {
+  background-color: #3f72af;
+}
+
+.try-it-rev:hover {
+  background-color: #112d4e;
 }

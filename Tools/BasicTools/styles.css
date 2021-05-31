@@ -1,0 +1,22 @@
+body {
+  text-align: center;
+  background-color: #dbe2ef;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.row {
+  text-align: left;
+  padding: 1% 40%;
+  font-weight: bold;
+  color: #112d4e;
+}
+
+.result {
+  padding: 4% 15%;
+  font-size: 2rem;
+  font-weight: bold;
+}
