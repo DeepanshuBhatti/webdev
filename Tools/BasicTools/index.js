@@ -1,4 +1,4 @@
-// Retuns the number of days, weeks and months lived
+// Returns the number of days, weeks and months lived
 function lifeInWeeks(age) {
   let days = age * 365;
   let weeks = age * 52;
@@ -15,8 +15,8 @@ function lifeInWeeks(age) {
 }
 
 function getBMI() {
-  let height = document.getElementsByClassName("height")[0].value;
-  let weight = document.getElementsByClassName("weight")[0].value;
+  let height = $(".height").val();
+  let weight = $(".weight").val();
   console.log(parseInt(height));
   let ans = "";
   if (isNaN(parseFloat(height)) || isNaN(parseFloat(weight))) {
@@ -24,7 +24,7 @@ function getBMI() {
   } else {
     ans = bmiCalculator(weight, height);
   }
-  document.getElementsByClassName("result")[0].textContent = ans;
+  $(".result").html(ans);
 }
 
 // Weight in Kg and Height in m
